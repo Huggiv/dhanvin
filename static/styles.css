@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 4px solid #3498db;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+header nav a {
+    color: #ecf0f1;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    padding: 2rem;
+}
+
+.left-sidebar, .sidebar {
+    background: #ecf0f1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-sidebar h3, .sidebar h3, .middle-bar h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.left-sidebar p, .sidebar ul {
+    margin: 0.5rem 0;
+}
+
+.sidebar ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+.middle-bar {
+    flex: 2;
+    margin: 0 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
